@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "splashchanger",
+  "version": "${version}",
+  "name": "SplashChanger",
+  "description": "Adds an option to change Splash Text in Title Screen!",
+  "authors": [
+    "MrSam7K"
+  ],
+  "contact": {
+    "repo": "https://github.com/MrSam7K/SplashChanger"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/splashchanger/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.mrsam7k.splashchanger.client.SplashChangerClient"
+    ],
+    "main": [
+      "me.mrsam7k.splashchanger.SplashChanger"
+    ]
+  },
+  "mixins": [
+    "SplashChanger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
