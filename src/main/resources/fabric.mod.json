@@ -10,7 +10,7 @@
   "contact": {
     "repo": "https://github.com/MrSam7K/SplashChanger"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/splashchanger/icon.png",
   "environment": "client",
   "entrypoints": {
