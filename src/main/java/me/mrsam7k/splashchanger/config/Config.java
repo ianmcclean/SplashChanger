@@ -15,6 +15,7 @@ public class Config extends MidnightConfig {
     @Entry public static String customSplash = "Singular Splash!";
     @Entry public static List<String> customSplashes = Lists.newArrayList("%name, that's you... I think", "Change this in options!");
     @Comment public static Comment splashWarning;
+    @Entry public static boolean disableButton = false;
 
     public static Screen getScreen(Screen parent){
         return MidnightConfig.getScreen(parent, "splashchanger");
