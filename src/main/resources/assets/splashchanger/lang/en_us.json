@@ -6,5 +6,7 @@
   "splashchanger.midnightconfig.customSplashes": "Custom Splashes List",
   "splashchanger.midnightconfig.enum.splashModeEnum.SINGLE_SPLASH": "Single Splash",
   "splashchanger.midnightconfig.enum.splashModeEnum.RANDOM_SPLASH": "Random Splash From List",
-  "splashchanger.midnightconfig.enum.splashModeEnum.ORIGINAL": "Minecraft's Splashes"
+  "splashchanger.midnightconfig.enum.splashModeEnum.ORIGINAL": "Minecraft's Splashes",
+  "splashchanger.midnightconfig.disableButton": "Disable SplashChanger's Button in Options Screen",
+  "splashchanger.midnightconfig.disableButton.tooltip": "§cWarning: enabling this feature will not let you\n§caccess SplashChanger's config unless you are\n§cusing Mod Menu!"
 }
