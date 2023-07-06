@@ -20,6 +20,7 @@ public class OptionsScreen extends Screen {
     @Inject(method = "init()V", at = @At("RETURN"))
     protected void init(CallbackInfo callbackInfo) {
         Minecraft mc = Minecraft.getInstance();
+        if(Config.disableButton) return;
         this.addRenderableWidget(Button.builder(Component.literal("Splash Text"), (button) -> mc.setScreen(Config.getScreen(mc.screen))
 
         ).build());
