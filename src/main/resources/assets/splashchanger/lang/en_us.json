@@ -1,12 +1,42 @@
 {
   "splashchanger.midnightconfig.title":"Splash Changer",
+
   "splashchanger.midnightconfig.splashMode": "Splash Mode",
+  "splashchanger.midnightconfig.splashMode.tooltip": "Minecraft's Splashes take effect after a restart",
   "splashchanger.midnightconfig.customSplash": "Single Splash Text",
-  "splashchanger.midnightconfig.splashWarning": "§cHeads up, changing any of these values §ctakes effect §lafter §ca restart!",
   "splashchanger.midnightconfig.customSplashes": "Custom Splashes List",
-  "splashchanger.midnightconfig.enum.splashModeEnum.SINGLE_SPLASH": "Single Splash",
-  "splashchanger.midnightconfig.enum.splashModeEnum.RANDOM_SPLASH": "Random Splash From List",
-  "splashchanger.midnightconfig.enum.splashModeEnum.ORIGINAL": "Minecraft's Splashes",
+  "splashchanger.midnightconfig.color": "Color",
+  "splashchanger.midnightconfig.OBFUSCATED": "Obfuscated (&k)",
+  "splashchanger.midnightconfig.BOLD": "Bold (&l)",
+  "splashchanger.midnightconfig.STRIKETHROUGH": "Strikethrough (&m)",
+  "splashchanger.midnightconfig.UNDERLINE": "Underline (&n)",
+  "splashchanger.midnightconfig.ITALIC": "Italic (&o)",
+
+  "splashchanger.midnightconfig.enum.Colors.BLACK": "§0Black (&0)",
+  "splashchanger.midnightconfig.enum.Colors.DARK_BLUE": "§1Dark Blue (&1)",
+  "splashchanger.midnightconfig.enum.Colors.DARK_GREEN": "§2Dark Green (&2)",
+  "splashchanger.midnightconfig.enum.Colors.DARK_AQUA": "§3Dark Aqua (&3)",
+  "splashchanger.midnightconfig.enum.Colors.DARK_RED": "§4Dark Red (&4)",
+  "splashchanger.midnightconfig.enum.Colors.DARK_PURPLE": "§5Dark Purple (&5)",
+  "splashchanger.midnightconfig.enum.Colors.GOLD": "§6Gold (&6)",
+  "splashchanger.midnightconfig.enum.Colors.GRAY": "§7Gray (&7)",
+  "splashchanger.midnightconfig.enum.Colors.DARK_GRAY": "§8Dark Gray (&8)",
+  "splashchanger.midnightconfig.enum.Colors.BLUE": "§9Blue (&9)",
+  "splashchanger.midnightconfig.enum.Colors.GREEN": "§aGreen (&a)",
+  "splashchanger.midnightconfig.enum.Colors.AQUA": "§bAqua (&b)",
+  "splashchanger.midnightconfig.enum.Colors.RED": "§cRed (&c)",
+  "splashchanger.midnightconfig.enum.Colors.LIGHT_PURPLE": "§dLight Purple (&d)",
+  "splashchanger.midnightconfig.enum.Colors.YELLOW": "§eYellow (&e)",
+  "splashchanger.midnightconfig.enum.Colors.WHITE": "§fWhite (&f)",
+
+
+  "splashchanger.midnightconfig.enum.SplashModes.SINGLE_SPLASH": "Single Splash",
+  "splashchanger.midnightconfig.enum.SplashModes.RANDOM_SPLASH": "Random Splash From List",
+  "splashchanger.midnightconfig.enum.SplashModes.ORIGINAL": "Minecraft's Splashes",
+  "splashchanger.midnightconfig.enum.SplashModes.NONE": "None",
+
   "splashchanger.midnightconfig.disableButton": "Disable SplashChanger's Button in Options Screen",
-  "splashchanger.midnightconfig.disableButton.tooltip": "§cWarning: enabling this feature will not let you access SplashChanger's config unless you are using Mod Menu!"
+  "splashchanger.midnightconfig.disableButton.tooltip": "§cWarning: enabling this option will not let you access SplashChanger's config unless you are using Mod Menu!",
+
+  "splashchanger.midnightconfig.customizationComment": "You can use the codes in brackets below in the texts above for even more customization!"
 }
