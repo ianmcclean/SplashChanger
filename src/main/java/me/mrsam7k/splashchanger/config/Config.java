@@ -11,7 +11,7 @@ public class Config extends MidnightConfig {
 
     @Entry public static SplashMode splashMode = SplashMode.RANDOM_SPLASH;
     public enum SplashMode {
-        SINGLE_SPLASH, RANDOM_SPLASH, ORIGINAL, NONE
+        SINGLE_SPLASH, RANDOM_SPLASH, ORIGINAL, ORIGINAL_1_0, ORIGINAL_1_8, NONE
     }
 
     @Entry public static String customSplash = "Singular Splash!";

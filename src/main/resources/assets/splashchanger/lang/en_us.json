@@ -32,7 +32,9 @@
 
   "splashchanger.midnightconfig.enum.SplashMode.SINGLE_SPLASH": "Single Splash",
   "splashchanger.midnightconfig.enum.SplashMode.RANDOM_SPLASH": "Random Splash From List",
-  "splashchanger.midnightconfig.enum.SplashMode.ORIGINAL": "Minecraft's Splashes",
+  "splashchanger.midnightconfig.enum.SplashMode.ORIGINAL": "Vanilla Splashes",
+  "splashchanger.midnightconfig.enum.SplashMode.ORIGINAL_1_0": "Minecraft 1.0",
+  "splashchanger.midnightconfig.enum.SplashMode.ORIGINAL_1_8": "Minecraft 1.8",
   "splashchanger.midnightconfig.enum.SplashMode.NONE": "None",
 
   "splashchanger.midnightconfig.disableButton": "Disable SplashChanger's Button in Options Screen",
