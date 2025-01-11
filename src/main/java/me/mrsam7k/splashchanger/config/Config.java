@@ -9,8 +9,8 @@ import java.util.List;
 
 public class Config extends MidnightConfig {
 
-    @Entry public static SplashModes splashMode = SplashModes.RANDOM_SPLASH;
-    public enum SplashModes {
+    @Entry public static SplashMode splashMode = SplashMode.RANDOM_SPLASH;
+    public enum SplashMode {
         SINGLE_SPLASH, RANDOM_SPLASH, ORIGINAL, NONE
     }
 
