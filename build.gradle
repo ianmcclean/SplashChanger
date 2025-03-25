@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.9-SNAPSHOT'
+    id 'fabric-loom' version '1.10-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -24,10 +24,10 @@ dependencies {
         // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    modApi("maven.modrinth:midnightlib:${project.midnight_version}") {
+    modApi("maven.modrinth:midnightlib:${project.midnightlib_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
-    include("maven.modrinth:midnightlib:${project.midnight_version}") {
+    include("maven.modrinth:midnightlib:${project.midnightlib_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
     }
