@@ -28,7 +28,7 @@ public class SplashRenderer {
     private String splash;
 
     @Inject(method = "render", at = @At("HEAD"))
-    public void render(GuiGraphics guiGraphics, int i, Font font, int j, CallbackInfo ci) {
+    public void render(GuiGraphics guiGraphics, int i, Font font, float f, CallbackInfo ci) {
         if (splashStrings == null) {
             initSplashStrings();
         }
