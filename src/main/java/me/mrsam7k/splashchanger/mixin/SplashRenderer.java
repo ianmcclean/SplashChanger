@@ -4,7 +4,7 @@ import me.mrsam7k.splashchanger.SplashChanger;
 import me.mrsam7k.splashchanger.config.Config;
 import me.mrsam7k.splashchanger.config.Config.SplashMode;
 import net.minecraft.client.gui.Font;
-import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Mutable;
@@ -29,8 +29,9 @@ public class SplashRenderer {
     @Mutable @Shadow @Final
     private Component splash;
 
-    @Inject(method = "render", at = @At("HEAD"))
-    public void render(GuiGraphics guiGraphics, int i, Font font, float f, CallbackInfo ci) {
+    @Inject(method = "extractRenderState", at = @At("HEAD"))
+    public void extractRenderState(final GuiGraphicsExtractor graphics, final int screenWidth, final Font font,
+            final float alpha, CallbackInfo ci) {
         if (splashStrings == null) {
             initSplashStrings();
         }

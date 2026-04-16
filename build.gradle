@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom'
+    id "net.fabricmc.fabric-loom" version "${loom_version}"
     id 'maven-publish'
 }
 
@@ -18,19 +18,19 @@ dependencies {
 
     // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    mappings loom.officialMojangMappings()
-    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    // mappings loom.officialMojangMappings()
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-        // Fabric API. This is technically optional, but you probably want it anyway.
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    // Fabric API. This is technically optional, but you probably want it anyway.
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-    modApi("maven.modrinth:midnightlib:${project.midnightlib_version}") {
+    api("maven.modrinth:midnightlib:${project.midnightlib_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
     include("maven.modrinth:midnightlib:${project.midnightlib_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
-    }
+}
 
 processResources {
     inputs.property "version", project.version
@@ -45,7 +45,7 @@ processResources {
     }
 }
 
-def targetJavaVersion = 17
+def targetJavaVersion = 25
 tasks.withType(JavaCompile).configureEach {
     // ensure that the encoding is set to UTF-8, no matter what the system default is
     // this fixes some edge cases with special characters not displaying correctly
