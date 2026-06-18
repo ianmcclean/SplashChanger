@@ -22,7 +22,7 @@ public class OptionsScreen extends Screen {
         if(Config.disableButton) return;
 
         Minecraft mc = Minecraft.getInstance();
-        this.addRenderableWidget(Button.builder(Component.literal("Splash Text"), (button) -> mc.setScreen(Config.getMidnightScreen(mc.screen))
+        this.addRenderableWidget(Button.builder(Component.literal("Splash Text"), (button) -> mc.gui.setScreen(Config.getMidnightScreen(mc.gui.screen()))
 
         ).build());
     }
